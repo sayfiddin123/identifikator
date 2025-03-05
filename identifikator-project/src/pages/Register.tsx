@@ -28,7 +28,6 @@ function Register() {
     <div className="register-login-container">
       <h1>Register</h1>
       <form onSubmit={handleSubmit}>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Emblem_of_Uzbekistan.svg/2012px-Emblem_of_Uzbekistan.svg.png" alt="Emblem of Uzbekistan" />
         <div className="form-group">
           <label htmlFor="first_name">First Name</label>
           <input type="text" id="first_name" name="first_name" onChange={handleChange} required />
